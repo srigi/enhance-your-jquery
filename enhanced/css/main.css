@@ -1,0 +1,28 @@
+
+body {
+    padding-top: 60px;
+}
+
+#content {
+	min-height: 400px;
+}
+
+.flashmessage.centered {
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.topbar .log li {
+	background-position: 96% 50%;
+	background-repeat: no-repeat;
+    padding: 0 28px 0 0;
+}
+.topbar .log li.loading	{ background-image: url('../images/ajax-loader16.gif'); }
+.topbar .log li.ok		{ background-image: url('../images/ico16_ok.png'); }
+.topbar .log li.error	{ background-image: url('../images/ico16_error.png'); }
+
+#searchForm {
+	padding-left: 1em;
+}
+#searchResults {
+	padding: 1em;
+}
